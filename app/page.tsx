@@ -4,48 +4,66 @@ import { Code } from "@nextui-org/code"
 import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
+import { DownArrowIcon, EmailIcon, GithubIcon, LinkedInIcon, ResumeIcon } from "@/components/icons";
 
 export default function Home() {
 	return (
-		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-			<div className="inline-block max-w-lg text-center justify-center">
-				<h1 className={title()}>Make&nbsp;</h1>
-				<h1 className={title({ color: "violet" })}>beautiful&nbsp;</h1>
-				<br />
-				<h1 className={title()}>
-					websites regardless of your design experience.
-				</h1>
-				<h2 className={subtitle({ class: "mt-4" })}>
-					Beautiful, fast and modern React UI library.
-				</h2>
+		<section className="flex flex-col justify-center lg:flex-row  lg:justify-between gap-4 py-0 lg:py-20">
+			<div className="flex flex-col justify-center">
+				<h1 className="text-center lg:text-left text-3xl md:text-2xl lg:text-3xl">&nbsp;</h1>
+				<h1 className='text-center lg:text-left text-5xl md:text-4xl lg:text-4xl md:mb-5 lg:pl-7'>Hello! I'm</h1>
+				<h1 className='text-center lg:text-left text-8xl md:text-9xl font-bold lg:pl-7 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600'>Nihaar<br/>Gopalji</h1>
+
+			</div>
+			<div className="justify-center lg:pr-20">
+				<h2 className="text-center mt-10 lg:mt-24 text-2xl lg:max-w-md animate-fadeIn">I'm a junior at the University of Michigan double majoring in computer science and mechanical engineering.</h2>
+				<div className="justify-center flex flex-nowrap gap-2 mt-16 lg:mt-27 animate-fadeIn">
+					<Link
+						isExternal
+						href={siteConfig.links.docs}
+						className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
+					>
+						<ResumeIcon />
+						Resume
+					</Link>
+					<Link
+						isExternal
+						className={buttonStyles({ color: "primary", variant: "shadow", radius: "full" })}
+						href={siteConfig.links.github}
+					>
+						<GithubIcon size={20} />
+						GitHub
+					</Link>
+					<Link
+						isExternal
+						href={siteConfig.links.docs}
+						className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
+					>
+						<EmailIcon />
+						Email
+					</Link>
+					<Link
+						isExternal
+						href={siteConfig.links.docs}
+						className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
+					>
+						<LinkedInIcon />
+						LinkedIn
+					</Link>
+
+				</div>
 			</div>
 
-			<div className="flex gap-3">
-				<Link
-					isExternal
-					href={siteConfig.links.docs}
-					className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
-				>
-					Documentation
-				</Link>
-				<Link
-					isExternal
-					className={buttonStyles({ variant: "bordered", radius: "full" })}
-					href={siteConfig.links.github}
-				>
-					<GithubIcon size={20} />
-					GitHub
-				</Link>
+
+			<div className="w-full mt-20 absolute bottom-2 md:bottom-12 flex justify-center">
+				<span className="text-center">
+					Scroll to learn a bit about me and my experience!
+					<br />
+					<br />
+					<DownArrowIcon className="mx-auto animate-oscillate" />
+				</span>
 			</div>
 
-			<div className="mt-8">
-				<Snippet hideSymbol hideCopyButton variant="flat">
-					<span>
-						Get started by editing <Code color="primary">app/page.tsx</Code>
-					</span>
-				</Snippet>
-			</div>
 		</section>
 	);
 }

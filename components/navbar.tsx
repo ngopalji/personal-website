@@ -25,6 +25,7 @@ import {
 	DiscordIcon,
 	HeartFilledIcon,
 	SearchIcon,
+	ResumeIcon,
 } from "@/components/icons";
 
 import { Logo } from "@/components/icons";
@@ -57,10 +58,10 @@ export const Navbar = () => {
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">
 						<Logo />
-						<p className="font-bold text-inherit">ACME</p>
+						<p className="font-bold text-inherit">Nihaar Gopalji</p>
 					</NextLink>
 				</NavbarBrand>
-				<ul className="hidden lg:flex gap-4 justify-start ml-2">
+				<ul className="hidden sm:flex gap-4 justify-start ml-2">
 					{siteConfig.navItems.map((item) => (
 						<NavbarItem key={item.href}>
 							<NextLink
@@ -94,19 +95,7 @@ export const Navbar = () => {
 					</Link>
 					<ThemeSwitch />
 				</NavbarItem>
-				<NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
-				<NavbarItem className="hidden md:flex">
-					<Button
-            isExternal
-						as={Link}
-						className="text-sm font-normal text-default-600 bg-default-100"
-						href={siteConfig.links.sponsor}
-						startContent={<HeartFilledIcon className="text-danger" />}
-						variant="flat"
-					>
-						Sponsor
-					</Button>
-				</NavbarItem>
+
 			</NavbarContent>
 
 			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
@@ -124,8 +113,10 @@ export const Navbar = () => {
 						<NavbarMenuItem key={`${item}-${index}`}>
 							<Link
 								color={
-									index === 2
+									index === 1
 										? "primary"
+										: index === 2
+										? "secondary"
 										: index === siteConfig.navMenuItems.length - 1
 										? "danger"
 										: "foreground"
@@ -135,6 +126,7 @@ export const Navbar = () => {
 							>
 								{item.label}
 							</Link>
+							
 						</NavbarMenuItem>
 					))}
 				</div>
