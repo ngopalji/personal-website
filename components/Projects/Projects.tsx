@@ -8,7 +8,7 @@ import ProjectCard from "./ProjectCard";
 
 
 
-export default function Project() {
+export default function Project(){
     return (
         <section id="projects" className="flex flex-col justify-start h-screen gap-4 items-center">
             <h1 className="text-center lg:text-left text-7xl md:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-600 mb-7">Projects</h1>
