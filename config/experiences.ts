@@ -31,7 +31,7 @@ export const projects = [
         skills: ["MongoDB", "Express.js", "Node.js", "React", "Docker", "JWTs"],
         duration: "May 2025 - August 2025",
         image: "disinfectionapp.png",
-        description: "Developed hospital disinfection management application utilizing MERN stack (MongoDB, Express.js, React, Node.js). Implemented system for wireless device disinfection tracking, schedule management, and secured staff access with authentication and training modules.",
+        description: "Developed scalable hospital device management application utilizing MERN stack (MongoDB, Express.js, React, Node.js). Implemented system for wireless device disinfection tracking, schedule management, and secured staff access with authentication and training modules.",
         link: ""
     },
 ]

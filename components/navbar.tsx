@@ -20,10 +20,9 @@ import clsx from "clsx";
 
 import { ThemeSwitch } from "@/components/theme-switch";
 import {
-	TwitterIcon,
 	GithubIcon,
-	DiscordIcon,
-	HeartFilledIcon,
+	EmailIcon,
+	LinkedInIcon,
 	SearchIcon,
 	ResumeIcon,
 } from "@/components/icons";
@@ -57,7 +56,6 @@ export const Navbar = () => {
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">
-						<Logo />
 						<p className="font-bold text-inherit">Nihaar Gopalji</p>
 					</NextLink>
 				</NavbarBrand>
@@ -84,14 +82,14 @@ export const Navbar = () => {
 				justify="end"
 			>
 				<NavbarItem className="hidden sm:flex gap-2">
-					<Link isExternal href={siteConfig.links.twitter} aria-label="Twitter">
-						<TwitterIcon className="text-default-500" />
-					</Link>
-					<Link isExternal href={siteConfig.links.discord} aria-label="Discord">
-						<DiscordIcon className="text-default-500" />
+					<Link isExternal href={siteConfig.links.resume} aria-label="Resume">
+						<ResumeIcon className="text-default-500" />
 					</Link>
 					<Link isExternal href={siteConfig.links.github} aria-label="Github">
 						<GithubIcon className="text-default-500" />
+					</Link>
+					<Link isExternal href={siteConfig.links.email} aria-label="Email">
+						<EmailIcon className="text-default-500" />
 					</Link>
 					<ThemeSwitch />
 				</NavbarItem>

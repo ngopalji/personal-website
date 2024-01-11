@@ -10,7 +10,7 @@ export default function Hero() {
             <div className="flex flex-col justify-start lg:flex-row lg:justify-between gap-4 lg:mt-10 lg:py-20">
                 {/* <div className="flex flex-col justify-center"> */}
                     {/* <h1 className='text-center font-bold lg:text-left text-3xl lg:text-4xl lg:mb-5 lg:pl-7'>Hello! I'm</h1> */}
-                    <h1 className='text-center lg:text-left text-8xl md:text-9xl font-bold lg:pl-7 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600'>Nihaar<br />Gopalji</h1>
+                    <h1 className='text-center lg:text-left text-8xl md:text-9xl font-bold lg:pl-7 pb-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600'>Nihaar<br />Gopalji</h1>
 
                 {/* </div> */}
                 <div className="justify-center lg:pr-20">
@@ -18,7 +18,7 @@ export default function Hero() {
                     <div className="justify-center flex flex-nowrap gap-2 mt-16 lg:mt-27 animate-fadeIn">
                         <Link
                             isExternal
-                            href={siteConfig.links.docs}
+                            href={siteConfig.links.resume}
                             className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
                         >
                             <ResumeIcon />
@@ -34,7 +34,7 @@ export default function Hero() {
                         </Link>
                         <Link
                             isExternal
-                            href={siteConfig.links.docs}
+                            href={siteConfig.links.email}
                             className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
                         >
                             <EmailIcon />
@@ -42,7 +42,7 @@ export default function Hero() {
                         </Link>
                         <Link
                             isExternal
-                            href={siteConfig.links.docs}
+                            href={siteConfig.links.linkedin}
                             className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
                         >
                             <LinkedInIcon />
