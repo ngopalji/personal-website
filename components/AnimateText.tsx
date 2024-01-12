@@ -40,9 +40,9 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({ text, characterDelay = 0.1 
   return (
     <motion.div initial="hidden" animate="visible" variants={containerVariants}>
       {lines.map((line, lineIndex) => (
-        <motion.div key={lineIndex} variants={lineVariants} className="flex justify-start">
+        <motion.div key={lineIndex} variants={lineVariants} className="flex justify-center lg:justify-start">
           {line.split("").map((char, charIndex) => (
-            <motion.span key={charIndex} variants={charVariants} className='text-center lg:text-left text-8xl md:text-9xl font-bold pb-2 animate-fadeToTransparent'>
+            <motion.span key={charIndex} variants={charVariants} className='text-8xl md:text-9xl font-bold pb-2 animate-fadeToTransparent'>
               {char}
             </motion.span>
           ))}

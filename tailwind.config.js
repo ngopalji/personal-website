@@ -31,9 +31,17 @@ module.exports = {
           '0%, 50%': { opacity: '0' }, // Starts with opacity 0 and remains so for half the duration
           '100%': { opacity: '1' },
         },
+        fadeInDelay1: {
+          '0%, 70%': { opacity: '0' }, // Starts with opacity 0 and remains so for half the duration
+          '100%': { opacity: '1' },
+        },
+        fadeInDelay2: {
+          '0%, 90%': { opacity: '0' }, // Starts with opacity 0 and remains so for half the duration
+          '100%': { opacity: '1' },
+        },
         fadeToTransparent: {
           '0%, 50%': {
-            color: '#9333ea', // starting color (black, or any color you choose)
+            color: '#2563eb', // starting color (for purple #9333ea, for blue #2563eb)
           },
           '100%': {
             color: 'transparent', // ending color (transparent)
@@ -44,7 +52,9 @@ module.exports = {
         // ... other animations ...
         'oscillate': 'oscillate 3s ease-in-out infinite',
         'shimmer': 'shimmer 2s infinite linear',
-        'fadeIn': 'fadeIn 2s ease-out',
+        'fadeIn': 'fadeIn 2s ease-out', 
+        'fadeInDelay1': 'fadeIn 3s ease-out',
+        'fadeInDelay2': 'fadeIn 4s ease-out',
         'fadeToTransparent': 'fadeToTransparent 3s ease-in-out forwards',
       },
     },

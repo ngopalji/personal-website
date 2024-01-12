@@ -1,5 +1,13 @@
 export const experiences = [
     {
+        name: "Michigan Strength Augmenting Exoskeleton",
+        title: "Software Engineer",
+        location: "Ann Arbor, MI",
+        duration: "January 2023 - Current",
+        image: "starxwhite.png",
+        description: "Developing algorithms to accurately identify and predict user movements while wearing the MSTARX exoskeleton, enabling the exoskeleton's motors to deliver more precise and strength-enhancing responses.",
+    },
+    {
         name: "Stryker",
         title: "R&D Engineering Intern",
         location: "Kalamazoo, MI",
