@@ -10,8 +10,8 @@ import ProjectCard from "./ProjectCard";
 
 export default function Project() {
     return (
-        <section id="projects" className="flex flex-col justify-start min-h-screen gap-4 items-center">
-            <h1 className="text-center lg:text-left text-6xl md:text-8xl font-bold text-transparent pb-2 bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 mb-7">Projects</h1>
+        <section id="projects" className="flex flex-col justify-start h-screen gap-4 items-center">
+            <h1 className="text-center lg:text-left text-7xl md:text-8xl font-bold text-transparent pb-2 bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 mb-7">Projects</h1>
             <div className="flex flex-col w-full gap-14 justify-center">
                 {projects.map((Project) => (
                     <ProjectCard
