@@ -14,7 +14,7 @@ export default function Hero() {
                 </div>
                 <div className="flex flex-col justify-center gap-14">
                     <p className="hidden text-center text-2xl lg:max-w-md animate-fadeIn">Hi,</p>
-                    <p className="text-center text-xl md:text-2xl lg:max-w-md animate-fadeInDelay1">I'm a junior at the University of Michigan double majoring in computer science and mechanical engineering.</p>
+                    <p className="text-center text-xl md:text-2xl lg:max-w-md animate-fadeInDelay1">I&apos;m a junior at the University of Michigan double majoring in computer science and mechanical engineering.</p>
                     <div className="flex flex-nowrap justify-center gap-2 animate-fadeInDelay2">
                         <Link
                             isExternal

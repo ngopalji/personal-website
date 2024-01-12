@@ -15,7 +15,7 @@ export default function About() {
                     <CardBody className="">
                         <p className="text-center">
                             Hey, welcome to my website! My journey at the University of Michigan began with a fascination for mechanical design. However, I soon found myself immersed in software side projects and seamlessly blending software automation with my mechanical projects. I developed a passion for software development, leading me to shift my focus to my CS major. I enjoy working with innovative software teams, aiming to create impactful and scalable software solutions to challenging problems around us.
-                            <br /><br />When I'm not working on tech, I love playing guitar (jazz and flamenco music) and watching F1, tennis, and UMICH football!
+                            <br /><br />When I&apos;m not working on tech, I love playing guitar (jazz and flamenco music) and watching F1, tennis, and UMICH football!
                         </p>
                     </CardBody>
                 </Card>
