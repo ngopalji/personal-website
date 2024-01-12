@@ -14,10 +14,9 @@ interface Experience {
 
 export default function ExperienceCard({ name, title, location, duration, image, description }: Experience) {
     return (
-        <Card className="max-w-2xl border border-slate-600">
+        <Card className="max-w-2xl">
             <CardHeader className="flex flex-row justify-center gap-4">
                 <Image
-                    isBlurred
                     src={image}
                     alt={name}
                     height={60}

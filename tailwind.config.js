@@ -36,7 +36,11 @@ module.exports = {
           '100%': { opacity: '1' },
         },
         fadeInDelay2: {
-          '0%, 90%': { opacity: '0' }, // Starts with opacity 0 and remains so for half the duration
+          '0%, 70%': { opacity: '0' }, // Starts with opacity 0 and remains so for half the duration
+          '100%': { opacity: '1' },
+        },
+        fadeInDelay3: {
+          '0%, 70%': { opacity: '0' }, // Starts with opacity 0 and remains so for half the duration
           '100%': { opacity: '1' },
         },
         fadeToTransparent: {
@@ -53,8 +57,9 @@ module.exports = {
         'oscillate': 'oscillate 3s ease-in-out infinite',
         'shimmer': 'shimmer 2s infinite linear',
         'fadeIn': 'fadeIn 2s ease-out', 
-        'fadeInDelay1': 'fadeIn 3s ease-out',
-        'fadeInDelay2': 'fadeIn 4s ease-out',
+        'fadeInDelay1': 'fadeIn 2s ease-out',
+        'fadeInDelay2': 'fadeIn 3s ease-out',
+        'fadeInDelay3': 'fadeIn 4s ease-out',
         'fadeToTransparent': 'fadeToTransparent 3s ease-in-out forwards',
       },
     },

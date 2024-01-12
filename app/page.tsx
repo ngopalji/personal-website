@@ -14,7 +14,7 @@ import Projects from "@/components/Projects/Projects";
 
 export default function Home() {
 	return (
-		<div>
+		<div className="">
 			<Hero />
 			<About />
 			<Experience />

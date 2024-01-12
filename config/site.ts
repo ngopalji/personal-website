@@ -39,4 +39,8 @@ export const siteConfig = {
 		email: "mailto:ngopalji@umich.edu",
 		linkedin: "https://www.linkedin.com/in/nihaar-gopalji/"
 	},
+	metadata: {
+		name: "Nihaar Gopalji",
+		description: "Nihaar Gopalji - Computer Science and Mechanical Engineering student at the University of Michigan. Learn more about my projects, skills, and professional journey here."
+	},
 };

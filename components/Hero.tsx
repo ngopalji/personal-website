@@ -7,8 +7,8 @@ import AnimatedText from "./AnimateText";
 
 export default function Hero() {
     return (
-        <section className="flex flex-col justify-start h-screen items-center">
-            <div className="flex flex-col justify-start w-11/12 lg:flex-row lg:justify-between items-center gap-14 lg:gap-4 lg:mt-10 lg:py-20">
+        <section className="flex flex-col justify-center h-screen items-center">
+            <div className="flex flex-col pb-72 justify-start w-11/12 lg:flex-row lg:justify-between items-center gap-14 lg:gap-4">
                 <div className="items-center bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">
                     <AnimatedText text="Nihaar\nGopalji"/>
                 </div>
@@ -51,7 +51,7 @@ export default function Hero() {
                     </div>
                 </div>
             </div> 
-            <div className="flex flex-col gap-6 absolute bottom-6 animate-fadeInDelay2">
+            <div className="flex flex-col gap-6 absolute bottom-12 animate-fadeInDelay3">
                 <p>Welcome to my portfolio website!</p>
                 <DownArrowIcon className="mx-auto animate-oscillate" />
             </div>
