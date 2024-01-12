@@ -23,7 +23,7 @@ export const projects = [
         skills: ["Python", "Arduino", "Raspberry Pi", "Swift"],
         duration: "May 2025 - August 2025",
         image: "starx.png",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+        description: "Developed and trained a machine learning algorithm that predicts the movements of users wearing a powered exoskeleton suit. Designed an efficient machine learning data pipeline for cleaning, transforming, and extracting relevant features from high-volume data sets in real-time.",
         link: ""
     },
     {

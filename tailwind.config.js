@@ -31,12 +31,21 @@ module.exports = {
           '0%, 50%': { opacity: '0' }, // Starts with opacity 0 and remains so for half the duration
           '100%': { opacity: '1' },
         },
+        fadeToTransparent: {
+          '0%, 50%': {
+            color: '#9333ea', // starting color (black, or any color you choose)
+          },
+          '100%': {
+            color: 'transparent', // ending color (transparent)
+          },
+        }
       },
       animation: {
         // ... other animations ...
         'oscillate': 'oscillate 3s ease-in-out infinite',
         'shimmer': 'shimmer 2s infinite linear',
         'fadeIn': 'fadeIn 2s ease-out',
+        'fadeToTransparent': 'fadeToTransparent 3s ease-in-out forwards',
       },
     },
   },
