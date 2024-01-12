@@ -8,14 +8,14 @@ import AnimatedText from "./AnimateText";
 export default function Hero() {
     return (
         <section className="flex flex-col justify-center h-screen items-center">
-            <div className="flex flex-col pb-72 justify-start w-11/12 lg:flex-row lg:justify-between items-center gap-14 lg:gap-4">
+            <div className="flex flex-col pb-72 justify-start md:w-11/12 lg:flex-row lg:justify-between items-center gap-14 lg:gap-4">
                 <div className="items-center bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">
                     <AnimatedText text="Nihaar\nGopalji"/>
                 </div>
                 <div className="flex flex-col justify-center gap-14">
                     <p className="hidden text-center text-2xl lg:max-w-md animate-fadeIn">Hi,</p>
-                    <p className="text-center text-xl md:text-2xl lg:max-w-md animate-fadeInDelay1">I&apos;m a junior at the University of Michigan double majoring in computer science and mechanical engineering.</p>
-                    <div className="flex flex-nowrap justify-center gap-2 animate-fadeInDelay2">
+                    <p className="text-center text-base md:text-2xl lg:max-w-md animate-fadeInDelay1">I&apos;m a junior at the University of Michigan double majoring in computer science and mechanical engineering.</p>
+                    <div className="flex flex-nowrap w-screen md:w-auto justify-center gap-2 animate-fadeInDelay2">
                         <Link
                             isExternal
                             href={siteConfig.links.resume}
@@ -52,7 +52,7 @@ export default function Hero() {
                 </div>
             </div> 
             <div className="flex flex-col gap-6 absolute bottom-12 animate-fadeInDelay3">
-                <p>Welcome to my portfolio website!</p>
+                <p className="text-base">Welcome to my portfolio website!</p>
                 <DownArrowIcon className="mx-auto animate-oscillate" />
             </div>
         </section>
