@@ -7,7 +7,7 @@ import { DownArrowIcon, EmailIcon, GithubIcon, LinkedInIcon, ResumeIcon } from "
 
 export default function About() {
     return (
-        <section id="about" className="flex flex-col justify-center h-screen md:pl-7 ">
+        <section id="about" className="flex flex-col justify-center min-h-screen md:pl-7 ">
             <div className="flex flex-col md:flex-row justify-center md:justify-between items-center gap-7">
                 <div className="flex flex-col gap-3 justify-center items-center">
                     <h1 className="text-center md:text-left text-7xl md:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">About Me</h1>
