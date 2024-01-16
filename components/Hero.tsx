@@ -21,7 +21,10 @@ export default function Hero() {
                             href={siteConfig.links.resume}
                             className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
                         >
-                            <ResumeIcon />
+                            <div className="hidden md:block">
+                                <ResumeIcon />
+                            </div>
+                           
                             Resume
                         </Link>
                         <Link
@@ -29,7 +32,9 @@ export default function Hero() {
                             className={buttonStyles({ color: "primary", variant: "shadow", radius: "full" })}
                             href={siteConfig.links.github}
                         >
-                            <GithubIcon size={20} />
+                            <div className="hidden md:block">
+                                <GithubIcon size={20} />
+                            </div>
                             GitHub
                         </Link>
                         <Link
@@ -37,7 +42,9 @@ export default function Hero() {
                             href={siteConfig.links.email}
                             className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
                         >
-                            <EmailIcon />
+                            <div className="hidden md:block">
+                                <EmailIcon />
+                            </div>
                             Email
                         </Link>
                         <Link
@@ -45,7 +52,10 @@ export default function Hero() {
                             href={siteConfig.links.linkedin}
                             className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
                         >
-                            <LinkedInIcon />
+                            <div className="hidden md:block">
+                                <LinkedInIcon />
+                            </div>
+                            
                             LinkedIn
                         </Link>
                     </div>
