@@ -1,5 +1,13 @@
 export const experiences = [
     {
+        name: "CandleStick",
+        title: "Backend Developer",
+        location: "Remote",
+        duration: "January 2024 - Current",
+        image: "candlestick.jpeg",
+        description: "Developing a scalable Firebase backend for an AI-powered brokerage app’s user referral system, integrating universal deep links to distribute free stocks to participants.",
+    },
+    {
         name: "Michigan Strength Augmenting Exoskeleton",
         title: "Software Engineer",
         location: "Ann Arbor, MI",
