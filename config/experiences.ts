@@ -1,5 +1,13 @@
 export const experiences = [
     {
+        name: "Stryker",
+        title: "Software Engineering Intern",
+        location: "Fort Lauderdale, FL",
+        duration: "May 2024 - August 2024",
+        image: "stryker.png",
+        description: "Developed a multithreaded C++ framework interfacing with an industrial robot and vision based tracking system, implementing a real-time data processing pipeline running robot localization algorithms to locate the robot in 3D space.",
+    },
+    {
         name: "CandleStick",
         title: "Backend Developer",
         location: "Remote",

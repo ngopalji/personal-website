@@ -24,7 +24,7 @@ export default function Hero() {
                             <div className="hidden md:block">
                                 <ResumeIcon />
                             </div>
-                           
+
                             Resume
                         </Link>
                         <Link
