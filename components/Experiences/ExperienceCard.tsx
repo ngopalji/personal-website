@@ -30,7 +30,11 @@ export default function ExperienceCard({ name, title, location, duration, image,
                     </div>
                     <div className="text-right text-slate-400">
                         <p className="text-slate-400">{duration}</p>
-                        <p className="">{location}</p>
+                        {location == "remote" ? 
+                          <div></div>
+                          : 
+                          <p className="">{location}</p>
+                        }
                     </div>
                 </div>
                 

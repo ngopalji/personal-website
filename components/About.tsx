@@ -14,7 +14,7 @@ export default function About() {
                     <Card className="max-w-3xl min-w-unit-sm bg-transparent">
                     <CardBody className="">
                         <p className="text-center">
-                            Hey, welcome to my website! My journey at the University of Michigan began with a fascination for mechanical design. However, I soon found myself immersed in software side projects and seamlessly blending software automation with my mechanical projects. I developed a passion for software development, leading me to shift my focus to my CS major. I enjoy working with innovative software teams, aiming to create impactful and scalable software solutions to challenging problems around us.
+                            Hey, welcome to my website! I started my journey at UMich studying mechanical engineering. My robotics projects and experiences building software automation into my mechanical work sparked my interest in computer science. I switched my major and have been building as much as possible over the past few years. I enjoy working with innovative software teams, aiming to create impactful and scalable software solutions to challenging problems around us.
                             <br /><br />When I&apos;m not working on tech, I love playing guitar (jazz and flamenco music) and watching F1, tennis, and UMICH football!
                         </p>
                     </CardBody>

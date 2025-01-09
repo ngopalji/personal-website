@@ -1,5 +1,13 @@
 export const experiences = [
     {
+        name: "Turbolearn AI",
+        title: "Software Engineer",
+        location: "remote",
+        duration: "November 2024 - Current",
+        image: "turbolearn.png",
+        description: "Improving note generation quality and optimizing system efficiency to improve scalability and performance across the TurboLearn platform.",
+    },
+    {
         name: "Stryker",
         title: "Software Engineering Intern",
         location: "Fort Lauderdale, FL",
