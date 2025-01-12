@@ -10,8 +10,8 @@ import ExperienceCard from "./ExperienceCard";
 
 export default function Experience() {
     return (
-        <section id="experience" className="flex flex-col justify-start min-h-screen md:pl-7 gap-4 lg:flex-row lg:items-center">
-            <h1 className="text-center lg:text-left text-6xl md:text-8xl font-bold text-transparent mt-10 md:mt-0 pb-2 bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 mb-7">Experience</h1>
+        <section id="experience" className="flex flex-col justify-start min-h-screen md:pl-7 gap-4 lg:flex-row lg:items-center pb-20">
+            <h1 className="text-center min-h-0 md:sticky top-20 bottom-20 lg:text-left text-6xl md:text-8xl font-bold text-transparent mt-10 md:mt-0 pb-2 bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 mb-7">Experience</h1>
             <div className="flex flex-col w-full gap-4 justify-center items-center">
                 {experiences.map((Experience) => (
                     <ExperienceCard
